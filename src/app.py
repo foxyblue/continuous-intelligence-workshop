@@ -1,3 +1,4 @@
+""" The flask app and endpoints."""
 from flask import Flask, render_template, jsonify, request
 from datetime import datetime
 import joblib
